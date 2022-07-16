@@ -169,7 +169,7 @@ function Work() {
                         {/*Hover effects*/}
                         <div className='opacity-0 group-hover:opacity-100 duration-500 flex flex-col justify-center'>
                             <span className='text-2xl font-bold text-center text-white tracking-wider'>
-                                React JS Application
+                                Wisata Sumatera
                             </span>
                             <div className='pt-8 text-center'>
                                 <a
