@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+    body {
+        @apply font-[Cairo];
+    }
+
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(44, 57, 75, 0.8),
+        hsla(17, 75%, 45%, 0.8)
+    ) !important;
+}
+
+.active {
+    border-bottom: 2px solid #ff4c29;
+    color: white;
+}
+
+ul {
+    transition: all 0.5 ease;
+}
