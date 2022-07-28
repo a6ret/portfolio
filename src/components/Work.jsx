@@ -2,7 +2,7 @@ import React from 'react';
 import projectGithub from '../assets/project-github.png';
 import projectCalculator from '../assets/project-calculator.png';
 import projectDice from '../assets/project-dice.png';
-import projectGuess from '../assets/project-guess.png';
+import projectOsh from '../assets/project-osh.png';
 import projectSid from '../assets/project-sid.png';
 import projectWisata from '../assets/project-wisata.png';
 
@@ -136,23 +136,23 @@ function Work() {
 
                     {/*Grid item*/}
                     <div
-                        style={{ backgroundImage: `url(${projectGuess})` }}
+                        style={{ backgroundImage: `url(${projectOsh})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/*Hover effects*/}
                         <div className='opacity-0 group-hover:opacity-100 duration-500 flex flex-col justify-center'>
                             <span className='text-2xl font-bold text-center text-white tracking-wider'>
-                                Guess My Number
+                                One Step Healthy
                             </span>
                             <div className='pt-8 text-center'>
                                 <a
-                                    href='https://a6ret.github.io/Guess-My-Number/'
+                                    href='https://a6ret.github.io/One-Step-Healthy/'
                                     target='blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:text-orange-600 duration-300'>
                                         Demo
                                     </button>
                                 </a>
                                 <a
-                                    href='https://github.com/a6ret/Guess-My-Number'
+                                    href='https://github.com/a6ret/One-Step-Healthy'
                                     target='blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:text-orange-600 duration-300'>
                                         Code
